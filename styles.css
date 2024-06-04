@@ -43,6 +43,8 @@ table {
     border-collapse: collapse;
     border-radius: 10px;
     overflow: hidden;
+    justify-content: center;
+    align-items: center;
 }
 
 table, th, td {
