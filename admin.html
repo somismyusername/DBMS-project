@@ -5,6 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Access</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        #passwordForm {
+            width: 300px; /* Adjust the width as needed */
+            margin: 0 auto; /* Center the form horizontally */
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+        }
+
+        /* Styles for the form elements */
+        label {
+            display: block; /* Ensure labels are on their own line */
+            margin-bottom: 10px; /* Add space below labels */
+        }
+
+        input[type="password"] {
+            width: 80%;
+            padding: 10px;
+            margin-bottom: 10px; 
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            align-items: center;
+        }
+
+        button[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #0056b3; /* Darker shade of primary color */
+        }
+    </style>
+
 </head>
 <body>
     <header>
@@ -15,26 +54,7 @@
             <label for="password">Enter Password:</label>
             <input type="password" id="password" name="password">
             <button type="submit">Submit</button>
-            <style>  body {
-                display: block;
-                justify-content: center;
-                align-items: center;
-            }
-    
-            .container {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            }
-    
-            .password-input {
-                width: 100%;
-                padding: 10px;
-                font-size: 16px;
-                border: 1px solid #ccc;
-                border-radius: 5px;
-            }
-        </style></style>
+          
         </form>
         <table id="adminTable" style="display: none;">
             <thead>
